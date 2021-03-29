@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Canvas</title>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .main-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .rover {
+      position: relative;
+      top: 102px;
+      left: -133.1px;
+    }
+
+    .flag-triangle {
+      position: absolute;
+      right: -14px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 66px solid #ff0000;
+      border-bottom: 20px solid transparent;
+    }
+
+    .flagpole {
+      position: absolute;
+      top: -5px;
+      left: 14px;
+      width: 5px;
+      height: 320px;
+      background-color: #999999;
+    }
+
+    .flagsource {
+      position: absolute;
+      top: 315px;
+      left: -11px;
+      width: 55px;
+      height: 8px;
+      background-color: black;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .flagsource-2 {
+      position: absolute;
+      top: 323px;
+      left: -11px;
+      width: 55px;
+      height: 32px;
+      background-color: #666666;
+    }
+
+    .flagsource-3 {
+      position: absolute;
+      top: 355px;
+      left: -47px;
+      height: 0;
+      width: 75px;
+      border-bottom: 56px solid black;
+      border-left: 21px solid transparent;
+    }
+
+    .roof-left {
+      position: absolute;
+      top: 410px;
+      left: -114px;
+      width: 69px;
+      height: 55px;
+      border-top-left-radius: 51px;
+      background-color: #d8d8d8;
+    }
+
+    .roof-mid {
+      position: absolute;
+      top: 410px;
+      left: -64px;
+      width: 244px;
+      height: 50px;
+      background-color: #d8d8d8;
+    }
+
+    .roof-right {
+      position: absolute;
+      top: 410px;
+      left: 180px;
+      width: 233px;
+      height: 50px;
+      border-top-right-radius: 100%;
+      background-color: #d8d8d8;
+    }
+
+    .under-roof {
+      position: absolute;
+      top: 460px;
+      left: -120px;
+      width: 539px;
+      height: 15px;
+      background-color: #ff0000;
+      border-radius: 50px;
+    }
+
+    .main-body {
+      position: absolute;
+      top: 475px;
+      left: -111px;
+      width: 520px;
+      height: 130px;
+      background-color: #f45a3b;
+      border-bottom-left-radius: 26px;
+      border-bottom-right-radius: 26px;
+    }
+
+    .under-1 {
+      position: absolute;
+      top: 605px;
+      left: -96px;
+      height: 0;
+      width: 470px;
+      border-bottom: 9px solid #222222;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+    }
+
+    .under-2 {
+      position: absolute;
+      top: 614px;
+      left: -95px;
+      width: 489px;
+      height: 32px;
+      background-color: #222222;
+    }
+
+    .under-3 {
+      position: absolute;
+      top: 646px;
+      left: -95px;
+      height: 0;
+      width: 344px;
+      border-top: 70px solid #222222;
+      border-left: 73px solid transparent;
+      border-right: 73px solid transparent;
+      /* background-color: blue; */
+    }
+
+    .wheel {
+      position: absolute;
+      top: 646px;
+      left: -85px;
+      width: 129px;
+      height: 129px;
+      border-radius: 50%;
+      background-color: black;
+    }
+
+    .wheel-2 {
+      left: 90px;
+    }
+
+    .wheel-3 {
+      left: 265px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="main-wrap">
+    <div class="rover">
+      <div class="flag-triangle"></div>
+      <div class="flagpole"></div>
+      <div class="flagsource"></div>
+      <div class="flagsource-2"></div>
+      <div class="flagsource-3"></div>
+      <div class="roof-left"></div>
+      <div class="roof-mid"></div>
+      <div class="roof-right"></div>
+      <div class="under-roof"></div>
+      <div class="main-body"></div>
+      <div class="under-1"></div>
+      <div class="under-2"></div>
+      <div class="under-3"></div>
+      <div class="wheel wheel-1"></div>
+      <div class="wheel wheel-2"></div>
+      <div class="wheel wheel-3"></div>
+    </div>
+  </div>
+</body>
+
+</html>
